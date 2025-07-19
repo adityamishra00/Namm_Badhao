@@ -2,12 +2,10 @@
   "name": "naambadhao-react-site",
   "version": "1.0.0",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "postinstall": "chmod +x node_modules/vite/bin/vite.js"
-},
-
+    "dev": "vite",
+    "build": "chmod +x node_modules/vite/bin/vite.js && vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "framer-motion": "^10.0.0",
